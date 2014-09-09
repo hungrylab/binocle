@@ -1,0 +1,19 @@
+{
+    "name": "hungrylab/binocle",
+    "description": "Ground theme based on Foundation.",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Dennis Enderink",
+            "email": "dennis@stayhungry.nl",
+            "homepage": "http://stayhungry.nl",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Binocle\\": "src/"
+        }
+    }
+}
