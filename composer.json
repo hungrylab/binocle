@@ -15,5 +15,8 @@
         "psr-4": {
             "Binocle\\": "src/"
         }
+    },
+    "require": {
+        "pimple/pimple": "~3.0"
     }
 }
