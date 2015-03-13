@@ -4,19 +4,61 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bf640f94225b3029c8c85775b1f5bb0f",
+    "hash": "5697a6061488a03ff628e313c372d13b",
     "packages": [
+        {
+            "name": "hungrylab/binocle-framework",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hungrylab/binocle-framework.git",
+                "reference": "1df7a6a6c225e6d22214a2acb1bb299a344b19e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hungrylab/binocle-framework/zipball/1df7a6a6c225e6d22214a2acb1bb299a344b19e3",
+                "reference": "1df7a6a6c225e6d22214a2acb1bb299a344b19e3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "pimple/pimple": "~3.0"
+            },
+            "replace": {
+                "binocle/component": "self.version",
+                "binocle/support": "self.version",
+                "binocle/theme": "self.version"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Binocle\\": "src/Binocle"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dennis Enderink",
+                    "email": "dennis@stayhungry.nl"
+                }
+            ],
+            "description": "A modern PHP WordPress theme framework",
+            "time": "2015-03-13 09:50:55"
+        },
         {
             "name": "pimple/pimple",
             "version": "v3.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fabpot/Pimple.git",
+                "url": "https://github.com/silexphp/Pimple.git",
                 "reference": "876bf0899d01feacd2a2e83f04641e51350099ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Pimple/zipball/876bf0899d01feacd2a2e83f04641e51350099ef",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/876bf0899d01feacd2a2e83f04641e51350099ef",
                 "reference": "876bf0899d01feacd2a2e83f04641e51350099ef",
                 "shasum": ""
             },
@@ -53,21 +95,16 @@
             "time": "2014-07-24 09:48:15"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "hungrylab/binocle-framework": 20
+    },
     "prefer-stable": false,
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
 }

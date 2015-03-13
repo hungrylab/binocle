@@ -1,22 +1,23 @@
 {
-    "name": "hungrylab/binocle",
-    "description": "Ground theme based on Foundation.",
-    "license": "GPL-2.0",
-    "authors": [
-        {
-            "name": "Dennis Enderink",
-            "email": "dennis@stayhungry.nl",
-            "homepage": "http://stayhungry.nl",
-            "role": "Developer"
-        }
-    ],
-    "minimum-stability": "stable",
-    "autoload": {
-        "psr-4": {
-            "Binocle\\": "src/"
-        }
-    },
-    "require": {
-        "pimple/pimple": "~3.0"
+  "name": "hungrylab/binocle",
+  "description": "Ground theme based on Foundation.",
+  "license": "GPLv2",
+  "authors": [
+    {
+      "name": "Dennis Enderink",
+      "email": "dennis@stayhungry.nl",
+      "homepage": "http://stayhungry.nl",
+      "role": "Productmanager/Developer"
     }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Binocle\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "hungrylab/binocle-framework": "dev-develop"
+  }
 }

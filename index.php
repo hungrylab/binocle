@@ -1,1 +1,3 @@
-<?php // Silence is golden, so they say. ?>
+<?php
+$c = Binocle\Support\Container::getInstance();
+include($c['template']->load());

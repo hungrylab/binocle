@@ -1,1 +1,6 @@
 /vendor/
+composer.lock
+.vagrant
+.idea
+.DS_Store
+Vagrantfile
